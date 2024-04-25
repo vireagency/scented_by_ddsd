@@ -1,0 +1,19 @@
+{
+  "name": "scented_by_ddsd",
+  "version": "1.0.0",
+  "description": "scented by ddsd official Website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Vire Agency",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
