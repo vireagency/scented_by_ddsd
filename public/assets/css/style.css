@@ -9361,6 +9361,10 @@ table p {
   .footer-area {
     padding-top: 85px;
   }
+
+  #footer-img {
+    -width:20px;
+  }
 }
 .footer-area .footer-main {
   padding-bottom: 42px;
@@ -9513,3 +9517,5 @@ table p {
     margin-bottom: 0 !important;
   }
 }
+
+/*Custom*/
