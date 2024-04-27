@@ -9362,10 +9362,17 @@ table p {
     padding-top: 85px;
   }
 
-  #footer-img {
-    -width:20px;
+  .btn-menu {
+    display: none;
   }
 }
+
+@media only screen and (min-width: 1199px) {
+  .btn-menu {
+    display: none;
+  }
+}
+
 .footer-area .footer-main {
   padding-bottom: 42px;
 }
@@ -9479,6 +9486,10 @@ table p {
 @media only screen and (max-width: 767px) {
   .footer-area .footer-bottom .widget-bottom-menu-wrap {
     text-align: center;
+  }
+
+  .btn-menu {
+    display: block;
   }
 }
 .footer-area .footer-bottom .widget-bottom-menu-wrap .nav-menu {
