@@ -9530,3 +9530,21 @@ table p {
 }
 
 /*Custom*/
+.blinking-button {
+  animation: blink 2s infinite; /* Blinking animation every 2 seconds */
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5733; /* Initial background color */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Keyframes for blinking animation */
+@keyframes blink {
+  0% { background-color: #ff5733; } /* Initial color */
+  50% { background-color: #33b5e5; } /* First color change */
+  100% { background-color: #ffcc00; } /* Second color change */
+}
+
