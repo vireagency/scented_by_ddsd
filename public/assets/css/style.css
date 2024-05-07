@@ -9548,3 +9548,32 @@ table p {
   100% { background-color: #ffcc00; } /* Second color change */
 }
 
+
+/* Search box styles */
+.widget-search-box {
+  margin-bottom: 20px;
+}
+
+.widget-search-box input[type="search"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.widget-search-box button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Product list styles */
+.perfume-product {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
